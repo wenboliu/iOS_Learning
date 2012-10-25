@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4916B1D4163796630013DD9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4916B1D3163796630013DD9E /* UIKit.framework */; };
+		4916B1D6163796630013DD9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4916B1D5163796630013DD9E /* Foundation.framework */; };
+		4916B1D8163796630013DD9E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4916B1D7163796630013DD9E /* CoreGraphics.framework */; };
+		4916B1DE163796630013DD9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4916B1DC163796630013DD9E /* InfoPlist.strings */; };
+		4916B1E6163796630013DD9E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4916B1E5163796630013DD9E /* Default.png */; };
+		4916B1E8163796630013DD9E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4916B1E7163796630013DD9E /* Default@2x.png */; };
+		4916B1EA163796630013DD9E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4916B1E9163796630013DD9E /* Default-568h@2x.png */; };
+		4916B1F8163796630013DD9E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4916B1F7163796630013DD9E /* SenTestingKit.framework */; };
+		4916B1F9163796630013DD9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4916B1D3163796630013DD9E /* UIKit.framework */; };
+		4916B1FA163796630013DD9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4916B1D5163796630013DD9E /* Foundation.framework */; };
+		4916B202163796630013DD9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4916B200163796630013DD9E /* InfoPlist.strings */; };
+		4916B205163796630013DD9E /* Animi1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4916B204163796630013DD9E /* Animi1Tests.m */; };
+		499EC6C61637A7460055CBD9 /* AnimiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4916B20F1637978C0013DD9E /* AnimiView.m */; };
+		499EC6C81637A7490055CBD9 /* ClassAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4916B1E3163796630013DD9E /* ClassAppDelegate.m */; };
+		499EC6C91637A74D0055CBD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4916B1DF163796630013DD9E /* main.m */; };
+		499EC6CB1637A7870055CBD9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499EC6CA1637A7870055CBD9 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4916B1FB163796630013DD9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4916B1C6163796630013DD9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4916B1CE163796630013DD9E;
+			remoteInfo = Animi1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4916B1CF163796630013DD9E /* Animi1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animi1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4916B1D3163796630013DD9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4916B1D5163796630013DD9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4916B1D7163796630013DD9E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4916B1DB163796630013DD9E /* Animi1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animi1-Info.plist"; sourceTree = "<group>"; };
+		4916B1DD163796630013DD9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4916B1DF163796630013DD9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4916B1E1163796630013DD9E /* Animi1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animi1-Prefix.pch"; sourceTree = "<group>"; };
+		4916B1E2163796630013DD9E /* ClassAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassAppDelegate.h; sourceTree = "<group>"; };
+		4916B1E3163796630013DD9E /* ClassAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassAppDelegate.m; sourceTree = "<group>"; };
+		4916B1E5163796630013DD9E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4916B1E7163796630013DD9E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4916B1E9163796630013DD9E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4916B1F6163796630013DD9E /* Animi1Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Animi1Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4916B1F7163796630013DD9E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4916B1FF163796630013DD9E /* Animi1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animi1Tests-Info.plist"; sourceTree = "<group>"; };
+		4916B201163796630013DD9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4916B203163796630013DD9E /* Animi1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animi1Tests.h; sourceTree = "<group>"; };
+		4916B204163796630013DD9E /* Animi1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animi1Tests.m; sourceTree = "<group>"; };
+		4916B20E1637978C0013DD9E /* AnimiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimiView.h; sourceTree = "<group>"; };
+		4916B20F1637978C0013DD9E /* AnimiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimiView.m; sourceTree = "<group>"; };
+		499EC6CA1637A7870055CBD9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4916B1CC163796630013DD9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499EC6CB1637A7870055CBD9 /* QuartzCore.framework in Frameworks */,
+				4916B1D4163796630013DD9E /* UIKit.framework in Frameworks */,
+				4916B1D6163796630013DD9E /* Foundation.framework in Frameworks */,
+				4916B1D8163796630013DD9E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4916B1F2163796630013DD9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4916B1F8163796630013DD9E /* SenTestingKit.framework in Frameworks */,
+				4916B1F9163796630013DD9E /* UIKit.framework in Frameworks */,
+				4916B1FA163796630013DD9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4916B1C4163796630013DD9E = {
+			isa = PBXGroup;
+			children = (
+				4916B1D9163796630013DD9E /* Animi1 */,
+				4916B1FD163796630013DD9E /* Animi1Tests */,
+				4916B1D2163796630013DD9E /* Frameworks */,
+				4916B1D0163796630013DD9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4916B1D0163796630013DD9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4916B1CF163796630013DD9E /* Animi1.app */,
+				4916B1F6163796630013DD9E /* Animi1Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4916B1D2163796630013DD9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				499EC6CA1637A7870055CBD9 /* QuartzCore.framework */,
+				4916B1D3163796630013DD9E /* UIKit.framework */,
+				4916B1D5163796630013DD9E /* Foundation.framework */,
+				4916B1D7163796630013DD9E /* CoreGraphics.framework */,
+				4916B1F7163796630013DD9E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4916B1D9163796630013DD9E /* Animi1 */ = {
+			isa = PBXGroup;
+			children = (
+				4916B20E1637978C0013DD9E /* AnimiView.h */,
+				4916B20F1637978C0013DD9E /* AnimiView.m */,
+				4916B1E2163796630013DD9E /* ClassAppDelegate.h */,
+				4916B1E3163796630013DD9E /* ClassAppDelegate.m */,
+				4916B1DA163796630013DD9E /* Supporting Files */,
+			);
+			path = Animi1;
+			sourceTree = "<group>";
+		};
+		4916B1DA163796630013DD9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4916B1DB163796630013DD9E /* Animi1-Info.plist */,
+				4916B1DC163796630013DD9E /* InfoPlist.strings */,
+				4916B1DF163796630013DD9E /* main.m */,
+				4916B1E1163796630013DD9E /* Animi1-Prefix.pch */,
+				4916B1E5163796630013DD9E /* Default.png */,
+				4916B1E7163796630013DD9E /* Default@2x.png */,
+				4916B1E9163796630013DD9E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4916B1FD163796630013DD9E /* Animi1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4916B203163796630013DD9E /* Animi1Tests.h */,
+				4916B204163796630013DD9E /* Animi1Tests.m */,
+				4916B1FE163796630013DD9E /* Supporting Files */,
+			);
+			path = Animi1Tests;
+			sourceTree = "<group>";
+		};
+		4916B1FE163796630013DD9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4916B1FF163796630013DD9E /* Animi1Tests-Info.plist */,
+				4916B200163796630013DD9E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4916B1CE163796630013DD9E /* Animi1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4916B208163796630013DD9E /* Build configuration list for PBXNativeTarget "Animi1" */;
+			buildPhases = (
+				4916B1CB163796630013DD9E /* Sources */,
+				4916B1CC163796630013DD9E /* Frameworks */,
+				4916B1CD163796630013DD9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Animi1;
+			productName = Animi1;
+			productReference = 4916B1CF163796630013DD9E /* Animi1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4916B1F5163796630013DD9E /* Animi1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4916B20B163796630013DD9E /* Build configuration list for PBXNativeTarget "Animi1Tests" */;
+			buildPhases = (
+				4916B1F1163796630013DD9E /* Sources */,
+				4916B1F2163796630013DD9E /* Frameworks */,
+				4916B1F3163796630013DD9E /* Resources */,
+				4916B1F4163796630013DD9E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4916B1FC163796630013DD9E /* PBXTargetDependency */,
+			);
+			name = Animi1Tests;
+			productName = Animi1Tests;
+			productReference = 4916B1F6163796630013DD9E /* Animi1Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4916B1C6163796630013DD9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Class;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = wenbo;
+			};
+			buildConfigurationList = 4916B1C9163796630013DD9E /* Build configuration list for PBXProject "Animi1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4916B1C4163796630013DD9E;
+			productRefGroup = 4916B1D0163796630013DD9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4916B1CE163796630013DD9E /* Animi1 */,
+				4916B1F5163796630013DD9E /* Animi1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4916B1CD163796630013DD9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4916B1DE163796630013DD9E /* InfoPlist.strings in Resources */,
+				4916B1E6163796630013DD9E /* Default.png in Resources */,
+				4916B1E8163796630013DD9E /* Default@2x.png in Resources */,
+				4916B1EA163796630013DD9E /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4916B1F3163796630013DD9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4916B202163796630013DD9E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4916B1F4163796630013DD9E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4916B1CB163796630013DD9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499EC6C91637A74D0055CBD9 /* main.m in Sources */,
+				499EC6C81637A7490055CBD9 /* ClassAppDelegate.m in Sources */,
+				499EC6C61637A7460055CBD9 /* AnimiView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4916B1F1163796630013DD9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4916B205163796630013DD9E /* Animi1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4916B1FC163796630013DD9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4916B1CE163796630013DD9E /* Animi1 */;
+			targetProxy = 4916B1FB163796630013DD9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4916B1DC163796630013DD9E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4916B1DD163796630013DD9E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4916B200163796630013DD9E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4916B201163796630013DD9E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4916B206163796630013DD9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4916B207163796630013DD9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4916B209163796630013DD9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animi1/Animi1-Prefix.pch";
+				INFOPLIST_FILE = "Animi1/Animi1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4916B20A163796630013DD9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animi1/Animi1-Prefix.pch";
+				INFOPLIST_FILE = "Animi1/Animi1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4916B20C163796630013DD9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Animi1.app/Animi1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animi1/Animi1-Prefix.pch";
+				INFOPLIST_FILE = "Animi1Tests/Animi1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4916B20D163796630013DD9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Animi1.app/Animi1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animi1/Animi1-Prefix.pch";
+				INFOPLIST_FILE = "Animi1Tests/Animi1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4916B1C9163796630013DD9E /* Build configuration list for PBXProject "Animi1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4916B206163796630013DD9E /* Debug */,
+				4916B207163796630013DD9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4916B208163796630013DD9E /* Build configuration list for PBXNativeTarget "Animi1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4916B209163796630013DD9E /* Debug */,
+				4916B20A163796630013DD9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4916B20B163796630013DD9E /* Build configuration list for PBXNativeTarget "Animi1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4916B20C163796630013DD9E /* Debug */,
+				4916B20D163796630013DD9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4916B1C6163796630013DD9E /* Project object */;
+}
